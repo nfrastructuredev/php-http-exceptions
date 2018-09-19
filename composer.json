@@ -1,0 +1,41 @@
+{
+    "name": "nfrastructure/php-http-exceptions",
+    "description": "A Suite of php exceptions which map nicely to HTTP Error Statues",
+    "type": "library",
+    "config": {
+        "preferred-install": {
+            "nfrastructure": "source,",
+            "*": "dist"
+        },
+        "optimize-autoloader": true
+    },
+    "support": {
+        "link": "https://nterprise.atlassian.net/"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nfra\\Exceptions\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Nfra\\ExceptionsTest\\": "tests/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chuck \"MANCHUCK\" Reeves",
+            "email": "chuck@manchuck.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "lukasoppermann/http-status": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.3",
+        "nfrastructure/nfrastructure-coding-standards": "^1.0",
+        "squizlabs/php_codesniffer": "^2.7"
+    }
+}
