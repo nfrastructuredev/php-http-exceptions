@@ -2,7 +2,7 @@
     "name": "nfra/php-http-exceptions",
     "description": "A Suite of php exceptions which map nicely to HTTP Error Statues",
     "type": "library",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "config": {
         "optimize-autoloader": true
     },
